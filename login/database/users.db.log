@@ -1,0 +1,5 @@
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE IF NOT EXISTS userLogin (id_user INTEGER IDENTITY PRIMARY KEY,email varchar(80),password varchar(50))
+INSERT INTO USERLOGIN VALUES(2,'testmail@gmail.com','123')
+COMMIT
+DISCONNECT
